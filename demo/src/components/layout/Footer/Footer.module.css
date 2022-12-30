@@ -1,0 +1,121 @@
+#foot {
+  margin-top: 100px;
+}
+#foot .upside .border_x {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 30px;
+}
+#foot .upside h2 {
+  font-size: 46px;
+}
+@media (max-width: 1000px) {
+  #foot .upside h2 {
+    font-size: 37px;
+  }
+}
+#foot .upside .form {
+  display: flex;
+  justify-content: end;
+}
+#foot .upside .form input {
+  padding: 22px 90px 22px 31px;
+  border: 1px solid transparent;
+  background-color: #ececec;
+  border-radius: 31px;
+  font-size: 20px;
+  outline: none;
+}
+#foot .upside .form input::-moz-placeholder {
+  font-size: 20px;
+}
+#foot .upside .form input:-ms-input-placeholder {
+  font-size: 20px;
+}
+#foot .upside .form input::placeholder {
+  font-size: 20px;
+}
+#foot .upside .form #sub_btn {
+  transition: 0.2s ease-in-out;
+  border: 1px solid transparent;
+  padding: 21px 60px 21px 60px;
+  border-radius: 31px;
+  margin-left: -110px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+#foot .upside .form #sub_btn:hover {
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 1200px) {
+  #foot .upside .form #sub_btn {
+    padding: 20px 34px 20px 41px;
+  }
+}
+@media (max-width: 1000px) {
+  #foot .upside .form {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 525px) {
+  #foot .upside .form {
+    display: none;
+  }
+}
+#foot .downside {
+  margin-top: 40px;
+}
+#foot .downside .img {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 40px;
+}
+#foot .downside .img img {
+  width: 148px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#foot .downside p {
+  font-size: 18px;
+  font-weight: bold;
+}
+#foot .downside ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0;
+  list-style-type: none;
+}
+#foot .downside ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 26px;
+}
+#foot .downside ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+#foot .downside ul li a:hover {
+  border-bottom: 1px solid black;
+}
+#foot p {
+  width: 70%;
+}
+@media (max-width: 1000px) {
+  #foot p {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+#foot #last_p {
+  width: 100%;
+  margin-top: 90px;
+}/*# sourceMappingURL=Footer.module.css.map */
